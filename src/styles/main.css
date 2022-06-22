@@ -1,0 +1,40 @@
+.lays {
+    background-color: red;
+}
+
+.flex {
+    border: 1px solid red;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.v-main {
+    margin-left: 200px;
+}
+
+.fix-side {
+    position: fixed;
+    flex-direction: row;
+}
+
+.v-navigation-drawer__content {
+    margin-bottom: 64px;
+}
+
+
+.container-app {
+    display: flex;
+}
+
+.header-app {
+    position: fixed !important;
+    z-index: 999 !important;
+}
+
+.v-list-item__title {
+    text-align: left;
+    margin-left: 25px;
+}
